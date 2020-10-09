@@ -8,11 +8,13 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html{
-    font-size: 62.5%;
+    padding-left:10px;
+        font-size: 62.5%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 body{
+    padding-left:150px;
     font-size: 1.6rem; // happy rems
     font-family: "Montserrat", sans-serif;
     

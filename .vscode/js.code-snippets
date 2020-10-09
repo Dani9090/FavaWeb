@@ -1,0 +1,14 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": ["console.log('$1');", "$2"],
+		"description": "Log output to console"
+	},
+	"Import a React": {
+		"scope": "react",
+		"prefix": "imr",
+		"body": ["import React from 'react';"],
+		"description": "import React from 'react';"
+	}
+}
